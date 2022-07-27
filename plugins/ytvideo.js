@@ -1,4 +1,4 @@
-let { ytv } = require("../lib");
+let { video } = require("../lib");
 module.exports = {
   name: "video",
   alias: ["ytmp4", "ytvideo"],
