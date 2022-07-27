@@ -1,6 +1,6 @@
 let { ytv } = require("../lib");
 module.exports = {
-  name: "ytv",
+  name: "video",
   alias: ["ytmp4", "ytvideo"],
   category: "Downloader",
   desc: "Yotube To Mp4",
