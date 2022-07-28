@@ -8,7 +8,7 @@ module.exports = {
     const start = new Date().getTime()
 		await msg.reply(tiny('Hi I,am Alive'))
 		const end = new Date().getTime()
-		return await msg.reply(tiny('Type .menu for commands')
+		return await msg.reply(tiny('  ')
 		)
   },
 };
