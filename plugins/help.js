@@ -9,7 +9,7 @@ const date = new Date();
 let owner = config.owner.split(',')
 module.exports = {
   name: "help",
-  alias: ["h", "cmd", "menu"],
+  alias: ["h", "alive", "menu"],
   category: "umum",
   async mbb({ msg, conn }, { q, map, prefix }) {
     if (q) {
