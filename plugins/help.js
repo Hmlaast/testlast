@@ -56,7 +56,7 @@ module.exports = {
       }
       let str =
         "```" +
-        `╭══════ MILLIE ══════⊷
+        `╭═════ Poocha Bot ═════⊷
 ┃ ╭──────────────
 ┃ │ Prefix : ${prefix}
 ┃ │ User : ${msg.pushName}
