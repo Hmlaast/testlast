@@ -102,7 +102,7 @@ ${readMore}
 				{
 					video: { url: config.thumbvideo },
 					caption: tiny(str),
-					gifPlayback: true,
+					gifPlayback: false,
 				},
 				{ quoted: msg ,adReply:false }
 			);
