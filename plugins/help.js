@@ -100,9 +100,9 @@ ${readMore}
       await conn.sendMessage(
 				msg.from,
 				{
-					video: { url: config.thumbvideo },
+					image: { url: config.thumbimage },
 					caption: tiny(str),
-					gifPlayback: true,
+					gifPlayback: false,
 				},
 				{ quoted: msg ,adReply:false }
 			);
