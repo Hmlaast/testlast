@@ -6,7 +6,7 @@ module.exports = {
   desc: "Alive Msg",
   async mbb({ msg }) {
     const start = new Date().getTime()
-		await msg.reply(tiny('Hi ${msg.pushName}/n I,am Alive'))
+		await msg.reply(tiny('Hi I,am Alive'))
 		const end = new Date().getTime()
 		return await msg.reply(tiny('Type .menu for commands')
 		)
